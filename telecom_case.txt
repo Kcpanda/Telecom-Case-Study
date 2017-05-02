@@ -1,0 +1,24 @@
+Client:Mobicom
+Domain:Telecom
+Designation:Business Analyst
+Project Details:
+They want to retain their subscribers on a proactive basis by rolling out targeted proactive retention programs
+Data Details:
+The data given had 86 attributes describing overall usage of each customers,their demo graphic information and if they have unsubscribed their service or not as the churn column.
+Techniques Used:
+Descriptive Statistics
+Variable Profiling
+Logistic Regression
+Clustering
+Role:
+Understanding the whole documentation of our business problem and acquiring knowledge about each attributes in our given dataset
+Derived variable to use correct parameter for Network and service quality and Whther customers are on optimal plan or not
+Cleaning data,Deleted all the columns where only 10% of information was given
+Outlier Treatment,Profiling of each variable to impute missing values where required
+Built my logistic model using forward selection algorithm and validated it 
+Predicted churn rate for each customer
+Suggestion given to client:
+Rolling out rate plan migration strategy for customers with high churn and high overage revenue
+Rolling out family bundle strategy customers with high churn rate and having more than 5 unique subscriber in their family
+Rolling out offers for high monthly usage users and high churn rate
+
